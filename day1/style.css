@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.input {
+    width: 0;
+}
+.wrapper{
+    padding: 20px;
+    width: 45%;
+    margin: 40px auto;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.form-row label{
+    flex: 1;
+}
+
+.form-row input{
+    flex: 1;
+}
+
+.form-row textarea{
+    flex: 1;
+}
+
+.submit {
+    
+}
